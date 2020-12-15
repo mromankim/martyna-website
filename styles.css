@@ -1,0 +1,380 @@
+
+html, body {
+
+  height: 100%;
+  width: 100%;
+  color: #708090;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+a:link {
+  color: inherit;
+  text-decoration: none; /* no underline */
+}
+.navbar {
+  padding: .8rem;
+  max-height: 55px;
+}
+
+.navbar-toggle {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+  padding-left: .1rem;
+}
+
+.parallax {
+  background-image: url("C:/Users/roman/Desktop/Marty/img/flowers.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    align-items: center;
+
+}
+
+.parallax h1 {
+  color: #F5FFFA;
+  text-align: center;
+  position: static;
+  font-size: 300%;
+  /*--- 1st horizontal, 2nd vertical, 3rd width ---*/
+  text-shadow: 1px 1px 15px #000;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+.parallax img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+
+
+
+.fade-in {
+animation: fadeIn ease 2s;
+-webkit-animation: fadeIn ease 2s;
+-moz-animation: fadeIn ease 2s;
+-o-animation: fadeIn ease 2s;
+-ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+
+
+
+.container12 {
+  position: absolute;
+  transform: translateY(-40%);
+}
+
+.container4 h3 {
+  color: #F5FFFA;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 10px;
+}
+
+.container4 {
+  padding-top: 70px;
+}
+
+.container4 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container6 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.container6, .container7, .col-xs-12 h1 {
+  font-size: 35px;
+}
+
+.container3 h1 {
+  font-size: 35px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.container2 h1 {
+  font-size: 35px;
+}
+
+.container2 img{
+  padding-top: 50px;
+}
+
+.col-lg-12 {
+  text-align: center;
+}
+
+.container5 {
+  padding-top: 20px;
+}
+
+.container5 h4 {
+  font-size: 95%;
+}
+.container5 h3{
+  color: #000000;
+}
+
+.container5 h2{
+  color: #006400;
+}
+
+.container5 img {
+  border-radius: 8px;
+}
+
+.container2 img {
+  width: 60%;
+  height: 10%%;
+  padding-bottom: 10px;
+}
+
+.container7 {
+  padding-top: 80px;
+
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+}
+
+.carousel-caption h1 {
+  /*--- thickness of font ---*/
+  font-weight: 300;
+  /*--- 1st horizontal, 2nd vertical, 3rd width ---*/
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.container9 {
+  margin-right:0;
+  background-color: #0e76a8;
+}
+.container2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.container3 {
+  padding-top: 50px;
+}
+
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+  color: #0e76a8;
+}
+
+.fa-linkedin:hover {
+  color: #d5d5d5;
+}
+
+.container1 {
+  background-color: #3f3f3f;
+      text-align: center;
+      color: #F0F8FF;
+      margin: 0px;
+      overflow: hidden;
+      padding-top: 20px;
+  }
+
+.container3 {
+text-align: center;
+padding-bottom: 50px;
+}
+
+.container3 h2 {
+  padding-bottom: 40px;
+}
+
+
+.fa-database {
+  color: #5C71FE;
+  }
+
+.fa-python {
+  color: #306998;
+}
+
+.fa-database, .fa-python {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+footer {
+  height: 60px;
+  background-color: #3f3f3f;
+  color: #F0F8FF;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 70%;
+}
+
+@media (max-width: 992px)  {
+
+.parallax h3 {
+    text-align: center;
+    font-size: 110%;
+    padding-top: 0px;
+}
+
+.parallax h1 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.parallax img {
+    width: 30%;
+    height: auto;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.social a {
+  font-size: 4em;
+  padding: 1rem;
+  }
+}
+
+@media (max-width: 768px)  {
+
+  .parallax h3 {
+    text-align: center;
+    font-size: 110%;
+  }
+
+  .parallax h1 {
+    text-align: center;
+    font-size: 150%;
+}
+
+  .parallax img {
+    width: 40%;
+    height: 100%;
+  }
+
+
+  .carousel-caption {
+    top: 45%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 350%;
+    padding-bottom: .2rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 140%
+  }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+    }
+}
+
+@media (max-width: 576px)  {
+
+  .parallax h3 {
+    text-align: center;
+    font-size: 110%;
+  }
+
+  .parallax h1 {
+    text-align: center;
+    font-size: 150%;
+    height: auto;
+  }
+  .parallax img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .carousel-caption {
+    top: 40%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 250%;
+    padding-bottom: .2rem;
+  }
+
+  .carousel-caption h3 {
+    font-size: 110%
+  }
+
+  .carousel-caption ul {
+  margin-right: 0
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: 2rem;
+    }
+
+  .container5 img{
+    text-align: center;
+    height: auto;
+  }
+
+}
