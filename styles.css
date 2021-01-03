@@ -79,6 +79,7 @@ a:link {
   display: block;
   width: auto;
   height: auto;
+  position: relative;
 }
 
 .col-lg-3 {
@@ -455,26 +456,6 @@ footer {
   text-align: center;
   padding-top: 10px;
   font-size: 70%;
-}
-
-@media (max-width: 1200px)  {
-  .parallax img {
-    width: 30%;
-    height: auto;
-    margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-@media (min-width: 1080px)  {
-  .parallax img {
-    width: 60%;
-    height: auto;
-    margin: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 
