@@ -462,13 +462,14 @@ footer {
 
 @media (min-width: 1080px)  {
 
-  body {
-    font-size: 80%;
-  }
 
   .parallax img {
-    width: 80%;
-    height: 100%;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
 }
