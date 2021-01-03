@@ -461,7 +461,11 @@ footer {
 
   body {
     font-size: 300%;
-
+  }
+  .parallax img {
+    width: 10%;
+    height: 100%;
+  }
 
 }
 
@@ -473,7 +477,14 @@ footer {
   body {
     font-size: 200%;
   }
+
+  .parallax img {
+    width: 20%;
+    height: 100%;
+  }
+
 }
+
 
 
 
