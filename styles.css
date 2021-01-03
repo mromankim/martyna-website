@@ -457,22 +457,10 @@ footer {
   font-size: 70%;
 }
 
-@media (max-width: 1200px)  {
-
-  body {
-    font-size: 300%;
-  }
-  .parallax img {
-    width: 10%;
-    height: 100%;
-  }
-
-}
 
 
 
-
-@media (max-width: 1080px)  {
+@media (min-width: 1080px)  {
 
   body {
     font-size: 200%;
