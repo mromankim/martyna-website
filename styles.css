@@ -458,7 +458,13 @@ footer {
   font-size: 70%;
 }
 
+@media (min-width: 1200px)  {
 
+body {
+    font-size: 110%;
+}
+
+}
 
 @media (max-width: 992px)  {
 
