@@ -32,7 +32,7 @@ a:link {
   padding: .8rem;
   max-height: 55px;
   font-family:"audreyregular", sans-serif !important; /*-- !important overwrites the bootstrap code --*/
-  font-size: 80%;
+  font-size: 90%;
 }
 
 .navbar a:hover {
@@ -131,6 +131,33 @@ animation: fadeIn ease 2s;
   transform: translateY(-40%);
 }
 
+.container21 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.half-highlight {
+  font-size: 30px;
+  background-image: linear-gradient(to right, transparent 50%, #88cc00 50%);
+  background-origin: 0;
+  background-size: 200% 50%;
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  transition: background-position 0.5s;
+   #000000
+}
+.half-highlight {
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+
+.half-highlight:hover {
+  background-position: -100% 100%;
+}
+
+
 .container4 h3 {
   color: #F5FFFA;
   text-align: center;
@@ -152,6 +179,10 @@ animation: fadeIn ease 2s;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 80px;
+}
+
+.container6 h1{
+  padding-top: 50px;
 }
 
 .container6, .container7, .col-lg-12 h1 {
@@ -192,9 +223,6 @@ a:link .container4 h3, h1 {
 .container5 h4 {
   font-size: 95%;
 }
-.container5 h3{
-  color: #000000;
-}
 
 .container5 h2{
   color: inherit;
@@ -219,6 +247,9 @@ a:visited {
   padding-bottom: 10px;
 }
 
+.container2 h1{
+  padding-top: 50px;
+}
 .container7 {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -306,16 +337,16 @@ a:visited {
   }
 
   .neon {
-    color: #fff;
+    color:#558000;
     text-shadow:
-      0 0 5px #fff,
-      0 0 10px #fff,
-      0 0 20px #fff,
-      0 0 40px #0ff,
-      0 0 80px #0ff,
-      0 0 90px #0ff,
-      0 0 100px #0ff,
-      0 0 150px #0ff;
+      0 0 5px #558000,
+      0 0 10px #558000,
+      0 0 20px #558000,
+      0 0 40px #558000,
+      0 0 80px #558000,
+      0 0 90px #558000,
+      0 0 100px #558000,
+      0 0 150px #558000;
   }
 
   #text i {
@@ -458,13 +489,7 @@ footer {
   font-size: 70%;
 }
 
-@media (min-width: 1200px)  {
 
-body {
-    font-size: 110%;
-}
-
-}
 
 @media (max-width: 992px)  {
 
@@ -520,9 +545,6 @@ body {
     padding-bottom: .2rem;
   }
 
-  .carousel-caption h3 {
-    font-size: 140%
-  }
 
   .container1 h2{
     font-size: 160%
@@ -558,10 +580,6 @@ body {
   .carousel-caption h1 {
     font-size: 250%;
     padding-bottom: .2rem;
-  }
-
-  .carousel-caption h3 {
-    font-size: 110%
   }
 
   .carousel-caption ul {
