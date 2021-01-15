@@ -22,7 +22,6 @@ html {
     font-style: normal;
 }
 
-
 a:link {
   color: inherit;
   text-decoration: none; /* no underline */
@@ -61,7 +60,6 @@ a:link {
     background-size: cover;
     margin: 0;
     align-items: center;
-
 }
 
 .parallax h1 {
@@ -91,7 +89,6 @@ a:link {
   width: 100%;
   height: auto;
 }
-
 
 .fade-in {
 animation: fadeIn ease 2s;
@@ -125,15 +122,9 @@ animation: fadeIn ease 2s;
 100% {opacity:1;}
 }
 
-
 .container12 {
   position: absolute;
   transform: translateY(-40%);
-}
-
-.container21 {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .half-highlight {
@@ -144,9 +135,6 @@ animation: fadeIn ease 2s;
   background-repeat: repeat-x;
   background-position: 0 100%;
   transition: background-position 0.5s;
-   #000000
-}
-.half-highlight {
   width:50%;
   margin-left: auto;
   margin-right: auto;
@@ -156,7 +144,6 @@ animation: fadeIn ease 2s;
 .half-highlight:hover {
   background-position: -100% 100%;
 }
-
 
 .container4 h3 {
   color: #F5FFFA;
@@ -294,7 +281,6 @@ a:visited {
   background-color: #999;
   background-color: rgba(70, 70, 70, 0.25);
 }
-
 
 .container9 {
   margin-right:0;
